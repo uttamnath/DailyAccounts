@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item android:id="@+id/menu_income"          
+          android:title="INCOME"
+          android:showAsAction="always" >
+    <menu>
+    <item android:id="@+id/iitem1" android:title="Add Income"
+        android:showAsAction="always" />
+    <item android:id="@+id/iitem2" android:title="View Total Report"
+        android:showAsAction="always" />
+    <item android:id="@+id/iitem3" android:title="View Monthly Report"
+        android:showAsAction="always" />
+   </menu>
+   </item>
+   
+    <item android:id="@+id/menu_Bank"          
+          android:title="Bank"
+          android:showAsAction="always" >
+    <menu>
+    <item android:id="@+id/bitem1" android:title="Add Savings"
+        android:showAsAction="always" />
+    <item android:id="@+id/bitem2" android:title="View Total Report"
+        android:showAsAction="always" />
+    <item android:id="@+id/bitem3" android:title="View Monthly Report"
+        android:showAsAction="always" />
+   </menu>
+   </item>
+
+     <item android:id="@+id/menu_expense"         
+         android:title="EXPENSE"
+         android:showAsAction="always" >
+    <menu>
+    <item android:id="@+id/eitem1" android:title="Add Cash Expense"
+        android:showAsAction="always" />
+    <item android:id="@+id/eitem2" android:title="View Total Report"
+        android:showAsAction="always" />
+    <item android:id="@+id/eitem3" android:title="View Monthly Report"
+        android:showAsAction="always" />
+    <!-- <item android:id="@+id/eitem4" android:title="Add Bank Withdraw"
+        android:showAsAction="always" />
+    <item android:id="@+id/eitem5" android:title="View Total Report"
+        android:showAsAction="always" />
+    <item android:id="@+id/eitem6" android:title="View Monthly Report"
+        android:showAsAction="always" /> -->
+   </menu>
+           </item>
+
+    <item android:id="@+id/menu_about"         
+          android:title="About" 
+          
+          android:showAsAction="always">
+          
+        
+    </item>
+           
+
+</menu>

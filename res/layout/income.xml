@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      android:background="#E5E4E2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#2B547B"
+        android:gravity="center"
+        android:text="INCOME"
+        android:textColor="#FEFCFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Source:"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/SourC"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Amount:"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="25dp" 
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/amt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Re-enter Amount:"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="12dp" 
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/Ramt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center" >
+
+    <Button
+        android:id="@+id/bsaveI"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SAVE" 
+        android:textStyle="bold"
+        android:textColor="#B71C1C"
+        />
+    </LinearLayout>
+
+</LinearLayout>

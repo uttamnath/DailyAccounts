@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="#E5E4E2">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#B71C1C"
+        android:gravity="center"
+        android:text="EXPENSE STATEMENT"
+        android:textColor="#18FFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView1" >
+
+    </ListView>
+
+</RelativeLayout>

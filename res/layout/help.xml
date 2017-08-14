@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondlayout"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.38"
+        android:text="HELP:\nStep-1:Create Password(Must be a Number )\nStep-2:Login With Password\nYou Can Change Password for better Security\nEnjoy This Application\nN:B-Please Email if you forget your password this will save your Data"
+        android:textColor="#FEFCFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

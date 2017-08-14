@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5E4E2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#463E3F"
+        android:gravity="center"
+        android:text="Conserve Your Regular Account"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical" 
+         android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtSetPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create password ?"
+            android:textColor="#0000FF"
+            android:textStyle="bold" 
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tVi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password :"
+            android:textColor="#B71C1C"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+             android:textColor="#B71C1C"
+            android:textStyle="bold"  />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tChPas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:textColor="#0000FF"
+            android:text="Change Password ?"
+            android:textStyle="bold"  />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+		android:layout_marginTop="10dp"
+        android:text="Note: Create password first than Login with this password every time." />
+
+     </LinearLayout>
+
+    
+
